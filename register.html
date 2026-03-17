@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register - Coding Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Create Account</h1>
+
+<form action="/register" method="POST">
+
+    <input name="email" type="email" placeholder="Email" required>
+
+    <input name="password" type="password" placeholder="Password" required>
+
+    <label for="age">Select Age:</label>
+    <select name="age" id="age">
+        <option>Child</option>
+        <option>18+</option>
+    </select>
+
+    <label for="level">Programming Level:</label>
+    <select name="level" id="level">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+    </select>
+
+    <button type="submit">Create Account</button>
+
+</form>
+
+</body>
+
+</html>
